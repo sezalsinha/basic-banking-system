@@ -1,0 +1,162 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("https://media.gettyimages.com/vectors/earn-point-concept-indian-rupee-business-concept-vector-id1179296279?s=612x612");
+    background-repeat: no-repeat;
+    background-position:right top ;
+    
+    
+}
+
+ section.topContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    
+}
+
+section.topContent .main-content {
+    
+    color: crimson;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'verdana', cursive;
+}
+section.topcontent .main-content:hover{
+    color: mediumblue;
+}
+
+ section.topContent .sub-content {
+    color:black;
+    font-size: 25px;
+}
+ section.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ .sub-title {
+    color: #4F75E2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.topContent img {
+  
+    width: 100%;
+}
+
+section.topContent .topContentImg {
+    width: 80%;
+}
+.img{
+    width:100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.heading{
+    color:crimson;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+    padding-top: 40px;  
+    font-family: 'verdana' cursive;
+
+}
+.intro-text p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: black;
+}
+
+.text{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 25px;    
+}
+
+.card:hover{
+    box-shadow: 5px 10 midnightblue;
+}   
+
+
+
+footer{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+   font-family: sans-serif; 
+   color: beige;
+   background-color:aliceblue!important;
+   margin: 0px;
+   margin-top: 50px;
+   padding-top: 25px;
+}
+
+.text-copy{
+    text-align: center;
+    padding: 25px 0;
+   font-family: sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: rgb(206, 194, 194);
+   background-color: #f8f9fa!important;
+   margin: 0px;   
+}
+
+.social{
+    margin-top: 10px;
+}
+.social a {   
+    display: inline-block;   
+    text-align: center;   
+    padding: 8px;   
+    
+    color:black
+    ;   
+    font-size: 15px;   
+    }         
+    .social a:hover {   
+    color:white;   
+      }       
+    .facebook {   
+    background: #3b5998;   
+    color: white;  
+    }         
+    .twitter {   
+    color: white;   
+    background: #00acee;   
+    }   
+    .linkedin {   
+    background:#0e76a8;   
+    color: white;   
+    }          
+    .instagram {   
+    background: #3f729b;   
+    color: white;   
+     }
+
+
+
+#contact{
+    width: 600px;
+    
+}
+@media only screen and (max-width: 600px) {
+    #contact {
+      width: 400px;
+    }
+  }
+  
+ 
+ 
